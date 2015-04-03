@@ -3,7 +3,7 @@ SSHPASS-P4K
 
 sshpass-p4k is modified version of sshpass for handling also ssh key authentication with passphrases,
  e.g. when ssh client prompts passphrase for key. Passphrase is supplied like password to sshpass via
- command line parameters (-p), enviromnet variable (-e), line from file (-f) or file descriptor (-d).
+ command line parameters (-p), environment variable (-e), line from file (-f) or file descriptor (-d).
  See [sshpass man page](http://linux.die.net/man/1/sshpass) for more details.
 
 P4K suffix is abbreviation from passphrase-for-key = pass4key = P4K
@@ -38,6 +38,7 @@ Cron jobs, batch jobs which cannot for whatever reason use ssh-agent would benef
  anything and you can easily switch to hey based authentication in the future.
 
 no key based authentication -> stay with sshpass
+
 key based authentication -> consider ssh-agent, if cannot -> use sshpass-p4k
 
 Hope this helps,
