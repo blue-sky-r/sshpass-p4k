@@ -42,4 +42,5 @@ no key based authentication -> stay with sshpass
 key based authentication -> consider ssh-agent, if cannot -> use sshpass-p4k
 
 Hope this helps,
-Robert
+
+keywords: sshpass, passphrase, key, authentication, ssh-agent, QA
